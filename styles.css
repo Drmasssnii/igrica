@@ -14,8 +14,14 @@ p {
 }
 
 /* Add a white square background for the h1 title */
-.h1-background {
+img {
     background-color: white;
-    display: inline-block;
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
