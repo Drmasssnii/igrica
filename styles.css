@@ -98,6 +98,13 @@ p2 {
             font-weight: bold;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            
           }
+
+/* Center all buttons */
+.dugme, .nazad-dugme {xs
+    display: block;
+    margin: 0 auto;
+}
 
 
