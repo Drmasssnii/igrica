@@ -66,13 +66,38 @@ p2 {
         background-color: lightcyan;
     }
      
-     dugme{ 
+    
+    .dugme {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; 
         text-align: center;
-     }
+        }
 
      h1 {
         text-align: center;
         font-size: 50px;
         background-color: lightcyan;}
+
+        .nazad-dugme {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color:#4CAF50;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
 
 
