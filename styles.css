@@ -101,10 +101,9 @@ p2 {
             
           }
 
-/* Center all buttons */
-.dugme, .nazad-dugme {xs
-    display: block;
-    margin: 0 auto;
-}
+            .dugme {
+               display: block;
+               text-align: center;
+            }
 
 
