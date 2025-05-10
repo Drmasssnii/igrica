@@ -6,8 +6,8 @@
 
 h1 {
     text-align: center;
-    font-size: 50;
-    background-color:946f71;
+    font-size: 50px; /* Added 'px' to font-size */
+    background-color: #946f71; /* Fixed missing '#' in color value */
 }
 
 /* Add a background image to the entire website */
@@ -39,7 +39,7 @@ p {
 
 /* Add a white square background for the h1 title */
 img {
-    background-color: 946f71;
+    background-color: #946f71; /* Fixed missing '#' in color value */
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -66,12 +66,12 @@ span {
 
 h2 {
     text-align: center;
-    font-size: 50px;
-    background-color:946f71;
+    font-size: 50px; /* Added 'px' to font-size */
+    background-color: #946f71; /* Fixed missing '#' in color value */
 }
 
 slika2 {
-    background-color: 946f71;
+    background-color: #946f71; /* Fixed missing '#' in color value */
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -84,51 +84,11 @@ slika2 {
 h3 {
     text-align: center;
     font-size: 50px;
-    background-color: 946f71;
+    background-color: #946f71; /* Fixed missing '#' in color value */
 }
 
-.dugme {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: 946f71;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-    font-size: 50px;
-    background-color: 946f71;
-}
-
-.nazad-dugme {
-    display: inline-block;
-    padding: 10px 18px;
-    background-color: #946f71;
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.dugme {
-    display: block;
-    text-align: center;
-}
-
-druga {
-    background-color:604652
-    background-color: ;
+.druga {
+    background-color: #604652; /* Fixed missing '#' and removed invalid extra line */
 }
 
 hr {
@@ -141,5 +101,19 @@ hr {
 /* Change all text and title fonts to BubblegumSans-Regular */
 body, h1, h2, h3, p, span, button {
     font-family: 'BubblegumSans-Regular', sans-serif;
+}
+
+.nazad-dugme {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #946f71; /* Fixed missing '#' */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
